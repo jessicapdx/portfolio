@@ -1,5 +1,4 @@
 import "./styling/Portfolio.css";
-import myPic from "./img/SelfTransparent.png";
 
 export default function Portfolio() {
   return (

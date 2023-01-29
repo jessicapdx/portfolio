@@ -13,7 +13,12 @@ export default function NavBar() {
         <div className="navbar bg-base-100">
           <div className="flex-1">
             <Link to="home">
-              <img href="home" src={logo} className="header-logo"></img>
+              <img
+                href="home"
+                src={logo}
+                className="header-logo"
+                alt="Jessica Butler, Software Test Engineer"
+              ></img>
             </Link>
           </div>
           <div className="flex-none">
