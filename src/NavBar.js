@@ -21,8 +21,8 @@ export default function NavBar() {
               ></img>
             </Link>
           </div>
-          <div className="flex-none">
-            <ul className="menu menu-horizontal px-1">
+          <div className="flex-none ">
+            <ul className="menu menu-horizontal px-6">
               <li>
                 <Link to="about-me">About Me</Link>
               </li>
