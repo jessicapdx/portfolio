@@ -1,13 +1,13 @@
 import "./styling/Home.css";
 import me from "./img/SelfTransparent.png";
-import react from "react";
 
 export default function Home() {
   return (
     <div class="relative text-gray-800 bg-gray-50">
       <section class="flex items-center justify-between px-8 mb-20 tracking-wider">
-        <div class="flex flex-col w-full md:w-1/2 space-y-12 text-center md:text-left">
+        <div class="flex flex-col w-full md:w-1/3 space-y-12 text-center md:text-left">
           <div class="flex flex-col px-10 md:px-20">
+            <div class="h-10"></div>
             <h3 class="text-xl font-bold">Skills</h3>
             <br />
             <span class="text-lg">Manual & Automated Web & Mobile Testing</span>
@@ -18,11 +18,16 @@ export default function Home() {
           <div class="px-10 md:px-20">
             <h3 class="text-xl font-bold">Summary</h3>
             <br />
-            <p class="w-full md:w-2/3">
+            <p class="w-full">
               I'm a first generation high school graduate and college attendee.
               I've always been driven to find what I'm passionate about, and I
               found my passion for QA in 2013 at my first QA job.
               <br />
+              Since then, I've found a passion for writing code (specifically
+              JavaScript) and really enjoy spending time on automation. I don't
+              believe there's a replacement for manual QA, but I believe
+              automated testing allows passionate testers to do more of what
+              they love: test all the things!
             </p>
           </div>
           <div class="px-10 md:px-20">
