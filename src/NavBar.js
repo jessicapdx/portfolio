@@ -23,9 +23,6 @@ export default function NavBar() {
           </div>
           <div className="flex-none ">
             <ul className="menu menu-horizontal px-6">
-              <li>
-                <Link to="about-me">About Me</Link>
-              </li>
               <li tabIndex={0}>
                 <Link to="portfolio">Portfolio</Link>
               </li>

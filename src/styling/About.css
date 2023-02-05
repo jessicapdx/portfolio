@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.layout-column {
+    padding: 15px;
+    text-align: center;
+    flex: 10%;
+}

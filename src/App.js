@@ -1,10 +1,10 @@
 // dependencies
 import "./styling/App.css";
+import "./styling/index.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // pages
-import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import NavBar from "./NavBar";
@@ -18,7 +18,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="about-me" element={<About />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact-me" element={<Contact />} />
             <Route path="home" element={<Home />} />
