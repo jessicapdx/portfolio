@@ -10,7 +10,7 @@ export default function NavBar() {
   return (
     <div>
       <nav>
-        <div className="navbar bg-base-100">
+        <div className="navbar">
           <div className="flex-1">
             <Link to="home">
               <img
@@ -27,6 +27,9 @@ export default function NavBar() {
                 <Link to="portfolio">Portfolio</Link>
               </li>
               <li>
+                <Link to="about-me">About Me</Link>
+              </li>
+              <li>
                 <Link to="contact-me">Contact Me</Link>
               </li>
               <li>
@@ -36,8 +39,6 @@ export default function NavBar() {
           </div>
         </div>
       </nav>
-
-      <hr />
 
       {/* An <Outlet> renders whatever child route is currently active,
           so you can think about this <Outlet> as a placeholder for
