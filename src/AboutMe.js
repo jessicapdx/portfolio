@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div className="">
-      <div className="bg-primary grid grid-cols-3">
+      <div className="bg-primary grid grid-cols-3 rounded-t-[15px]">
         <div className="m-5">
           <h4 className="text-2xl font-bold">Experience</h4>
           <br />
@@ -40,33 +40,35 @@ export default function About() {
             </div>
           </div>
           <div className="">
-            <img className="rounded-full w-80" src={me} alt="Jessica Butler" />
+            <img className="rounded-full w-30" src={me} alt="Jessica Butler" />
           </div>
         </div>
         <div className="m-5 grid justify-items-end pr-5 text-end">
-          <h4 className="mb-8 text-2xl font-bold md:text-left">
+          <h4 className="mb-8 text-2xl font-bold md:text-end">
             Current & Previous Experiences
           </h4>
-          <h5 className="text-xl md:text-2xl font-bold">QA Engineer</h5>
-          <h6 className="text-lg font-bold">Cross River Bank</h6>
+          <h5 className="text-xl md:text-lg font-bold">QA Engineer</h5>
+          <h6 className="text-lg md:text-base font-bold">Cross River Bank</h6>
           <p>Sept 2022 - Present</p>
           <br />
-          <h5 className="text-xl md:text-2xl  font-bold">
+          <h5 className="text-xl md:text-lg  font-bold">
             Senior Mobile Test Engineer
           </h5>
-          <h6 className="text-lg font-bold">Northwestern Mutual</h6>
+          <h6 className="text-lg md:text-base font-bold">
+            Northwestern Mutual
+          </h6>
           <p>Jan 2021 - Sept 2022</p>
           <br />
-          <h5 className="text-xl md:text-2xl  font-bold">QA Engineer</h5>
-          <h6 className="text-lg font-bold">AltSource</h6>
+          <h5 className="text-xl md:text-lg font-bold">QA Engineer</h5>
+          <h6 className="text-lg md:text-base font-bold">AltSource</h6>
           <p>July 2020 - Jan 2021</p>
           <br />
-          <h5 className="text-xl md:text-2xl  font-bold">Senior QA Analyst</h5>
-          <h6 className="text-lg font-bold">Acorns</h6>
+          <h5 className="text-xl md:text-lg font-bold">Senior QA Analyst</h5>
+          <h6 className="text-lg md:text-base font-bold">Acorns</h6>
           <p>Sept 2018 - June 2020</p>
           <br />
-          <h5 className="text-xl md:text-2xl  font-bold">Software Tester 2</h5>
-          <h6 className="text-lg font-bold">Shasta QA</h6>
+          <h5 className="text-xl md:text-lg font-bold">Software Tester 2</h5>
+          <h6 className="text-lg md-text-base font-bold">Shasta QA</h6>
           <p>May 2015 - Sept 2018</p>
         </div>
       </div>

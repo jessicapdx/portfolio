@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-primary">
+    <div className="w-full h-full bg-primary rounded-[175px] p-3">
       <div className="grid grid-cols-12">
         <img
           src={me}
