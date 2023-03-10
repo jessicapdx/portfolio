@@ -5,7 +5,6 @@ import me from "./img/SelfTransparent.png";
 export default function About() {
   return (
     <div>
-      <br />
       <h3 className="text-xl font-bold">Contact</h3>
       <a
         className="text-xl hover:text-blue-600"
