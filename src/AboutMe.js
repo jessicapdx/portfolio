@@ -30,21 +30,21 @@ export default function About() {
             Xcode & Android Studio
           </p>
         </div>
-        <div className="m-5">
-          <div className="m-8 flex flex-row flex-col">
+        <div className="grid m-5 text-center justify-items-center">
+          <div className="m-8">
             <p className="m-5">Have questions? Just want to say hi?</p>
-            <div className="place-self-center">
+            <div className="">
               <button className="rounded-full btn btn-primary">
                 <Link to="mailto:hello@jessicabutler.io">Email me! 💌</Link>
               </button>
             </div>
           </div>
-          <div className="flex flex-row content-center flex-col">
-            <img className="rounded-full" src={me} alt="Jessica Butler" />
+          <div className="">
+            <img className="rounded-full w-80" src={me} alt="Jessica Butler" />
           </div>
         </div>
-        <div className="m-5">
-          <h4 className="mb-8 text-2xl font-bold text-center md:text-left">
+        <div className="m-5 grid justify-items-end pr-5 text-end">
+          <h4 className="mb-8 text-2xl font-bold md:text-left">
             Current & Previous Experiences
           </h4>
           <h5 className="text-xl md:text-2xl font-bold">QA Engineer</h5>
