@@ -2,4 +2,15 @@ body,
 html {
     font-family: 'Roboto', sans-serif;
     color: #331040;
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
