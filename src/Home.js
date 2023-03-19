@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="w-screen justify-center m-auto">
-      <div className="w-full h-full bg-primary rounded-[175px]">
+      <div className="h-full bg-primary rounded-[175px] w-screen">
         <div className="grid grid-cols-12 grid-rows-2">
           <img
             src={me}
@@ -14,7 +14,7 @@ export default function Home() {
             alt="Jessica Butler"
           />
           <div className="grid grid-rows-12 col-span-12 sm:col-span-6 m-5 p-5">
-            <h2 className="text-4xl row-span-4 sm:row-span-2">
+            <h2 className="text-4xl row-span-4 sm:row-span-2 text-center">
               Hi! I'm Jessica! 👋
             </h2>
             <p className="row-span-6">
