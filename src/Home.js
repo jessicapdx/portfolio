@@ -7,17 +7,17 @@ export default function Home() {
   return (
     <div className="w-screen justify-center m-auto">
       <div className="h-full bg-primary rounded-[175px] w-screen">
-        <div className="grid grid-cols-12 grid-rows-2">
+        <div className="grid grid-cols-12 grid-rows-2 sm:grid-rows-1">
           <img
             src={me}
             className="rounded-full col-span-12 sm:col-span-6 -mt-20 p-8 row-span-1"
             alt="Jessica Butler"
           />
           <div className="grid grid-rows-12 col-span-12 sm:col-span-6 m-5 p-5">
-            <h2 className="text-4xl row-span-4 sm:row-span-2 text-center">
+            <h2 className="text-4xl row-span-4 sm:row-span-2 text-center p-2">
               Hi! I'm Jessica! 👋
             </h2>
-            <p className="row-span-6">
+            <p className="row-span-6 p-3">
               I'm a first generation high school graduate and college attendee.
               I've always been driven to find what I'm passionate about, and I
               found my passion for QA in 2013 at my first QA job.
@@ -29,7 +29,7 @@ export default function Home() {
               automated testing allows passionate testers to do more of what
               they love: test all the things!
             </p>
-            <div className="place-self-center row-span-1">
+            <div className="place-self-center row-span-1 p-3">
               <button className="rounded-full btn btn-primary">
                 <Link to="/about-me">More About Me</Link>
               </button>
