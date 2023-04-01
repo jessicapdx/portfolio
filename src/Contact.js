@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen">
-      <div className="text-center justify-content-center grid grid-rows-2">
-        <h1 className="mb-5 text-4xl font-bold">Contact Me</h1>
-        <div className="bg-white opacity-75 rounded-lg p-3 ">
+    <div className="h-screen">
+      <h1 className="mb-5 text-4xl font-bold m-3 text-center">Contact Me</h1>
+      <div className="text-center grid grid-rows-2 bg-white opacity-75 rounded-lg p-3 m-3 justify-center h-100">
+        <div className="">
           <p className="mb-5">
             Feel free to connect with me on LinkedIn or email me at
             <br />
@@ -14,6 +14,8 @@ export default function Contact() {
               💌 hello@jessicabutler.io 💌
             </a>
           </p>
+        </div>
+        <div>
           <button className="rounded-full btn btn-primary">
             <Link to="https://www.linkedin.com/in/jessicabbutler/">
               LinkedIn
