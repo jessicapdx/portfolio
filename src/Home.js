@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="w-screen justify-center m-auto">
-      <div className="h-full bg-primary rounded-[175px] w-screen">
-        <div className="grid grid-cols-12 grid-rows-2 sm:grid-rows-1">
+      <div className="h-full bg-primary rounded-[175px] w-screen p-2">
+        <div className="grid grid-cols-12 sm:grid-rows-1">
           <img
             src={me}
             className="rounded-full col-span-12 sm:col-span-6 -mt-20 p-8 row-span-1"
@@ -17,17 +17,18 @@ export default function Home() {
             <h2 className="text-4xl row-span-4 sm:row-span-2 text-center p-2">
               Hi! I'm Jessica! 👋
             </h2>
-            <p className="row-span-6 p-3">
-              I'm a first generation high school graduate and college attendee.
-              I've always been driven to find what I'm passionate about, and I
-              found my passion for QA in 2013 at my first QA job.
+            <p className="">
+              I've been in the tech industry for 8 years, with a focus on
+              Quality Assurance. I truly enjoy detective work and learning from
+              the developers that I work with. I am <i>always</i> learning
+              something new (even in my personal time, like the hours I invested
+              to build this website by myself)!
               <br />
               <br />
-              Since then, I've found a passion for writing code (specifically
-              JavaScript) and really enjoy spending time on automation. I don't
-              believe there's a replacement for manual QA, but I believe
-              automated testing allows passionate testers to do more of what
-              they love: test all the things!
+              Before QA, I was in the medical field and studied Medical Office
+              Administration. While working in the medical field, I was
+              motivated by coworkers and friends to pursue an opportunity in
+              tech, and that's when I discovered my passion for QA.
             </p>
             <div className="place-self-center row-span-1 p-3">
               <button className="rounded-full btn btn-primary">
