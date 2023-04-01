@@ -1,4 +1,5 @@
 import "./styling/Portfolio.css";
+import cypressProj from "./img/cypressproj.png";
 import dictionaryApp from "./img/dictionaryapp.png";
 import weatherApp from "./img/weatherapp.png";
 
@@ -65,6 +66,27 @@ export default function Portfolio() {
             </div>
             <div>
               <h2 className="text-xl font-bold">QA Projects</h2>
+              <div className="p-2 bg-white opacity-75 m-2 rounded-lg">
+                <a
+                  href="https://github.com/jessicapdx/parabank-cypress-example"
+                  alt="Link to Cypress test source code"
+                >
+                  Web Tests using
+                  <br />
+                  Cypress + TypeScript
+                </a>
+                <img
+                  src={cypressProj}
+                  alt="Screenshot of Cypress test execution"
+                  className="p-3"
+                ></img>
+                <a
+                  href="https://github.com/jessicapdx/parabank-cypress-example"
+                  alt="Front End test framework built using Cypress and TypeScript"
+                >
+                  Source Code
+                </a>
+              </div>
             </div>
           </div>
         </div>
