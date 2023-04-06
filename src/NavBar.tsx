@@ -10,19 +10,18 @@ export default function NavBar() {
   return (
     <div>
       <nav>
-        <div className="navbar">
-          <div className="flex-1">
+        <div className="">
+          <div className="">
             <Link to="home">
               <img
-                href="home"
                 src={logo}
-                className="header-logo"
+                className=""
                 alt="Jessica Butler, Software Test Engineer"
-              ></img>
+              />
             </Link>
           </div>
-          <div className="flex-none ">
-            <ul className="menu menu-horizontal px-6">
+          <div className=" ">
+            <ul className="">
               <li tabIndex={0}>
                 <Link to="portfolio">Portfolio</Link>
               </li>

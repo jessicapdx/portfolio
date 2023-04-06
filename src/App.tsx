@@ -1,7 +1,7 @@
 // dependencies
 import "./styling/App.css";
 import "./styling/index.css";
-import React from "react";
+import * as React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // pages
